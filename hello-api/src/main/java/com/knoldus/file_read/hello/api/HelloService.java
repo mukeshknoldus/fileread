@@ -14,12 +14,9 @@ import java.util.List;
 
 
 public interface HelloService extends Service {
-
-  
   //ServiceCall<NotUsed, String> getResult(String id);
   ServiceCall<NotUsed, List<ResultPojo>> getResult(String id);
   
-
   @Override
   default Descriptor descriptor() {
     // @formatter:off

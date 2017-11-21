@@ -21,7 +21,6 @@ public class FileHandle {
         String sAllLines="";
         List<ResultPojo> resultPojo =new ArrayList<ResultPojo>();
         
-        
         try{
             fileReader = new FileReader(filename);
             bufferedReader = new BufferedReader(fileReader);
